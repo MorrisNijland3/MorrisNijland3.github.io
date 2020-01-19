@@ -1,0 +1,53 @@
+
+<head>
+<title>Formulier</title>
+ <meta charset="utf-8">
+ <link href="css/layout.css" rel="stylesheet">
+</head>
+<body>
+<h1> Wilt u graag een mini bericht achterlaten? </h1>
+
+<p><b>Voer uw gegevens in:</b></p>
+
+<form action="vb/forms/hidden/check.php" method="post">
+<table>
+  <tr>
+    <td>Voornaam:</td>
+    <td><input name="vn" size="30" maxlength="24" required></td>
+  <tr>
+    <td>Achternaam:</td>
+    <td><input name="an" size="30" maxlength="24" required></td>
+  <tr>
+    <td>Straat:</td>
+    <td><input name="str" size="30" maxlength="24" required></td>
+  <tr>
+    <td>Postcode:</td>
+    <td><input name="pc" maxlength="7" size="7" required></td>
+  <tr>
+    <td>Stad:</td>
+    <td><input name="stad" size="30" maxlength="24" required></td>
+  <tr>
+    <td>Land:</td>
+    <td><select name="land[]">
+    <option value="Nederland" selected>Nederland</option> 
+    <option value="Duitsland">Duitsland</option>    
+	<option value="Polen">Polen</option>
+	<option value="Ik heb geen land">Ik heb geen land</option>
+	<option value="Monaco">Monaco</option>
+	<option value="Tsjechië">Tsjechië</option>
+    </select></td>
+	<tr>
+		<td>Bericht:</td>
+		<td><input name="br" maxlength="70" size="70" required></td>
+</table>
+
+<input type="hidden" name="html" value="HTML">
+<input type="hidden" name="css" value="CSS">
+<input type="hidden" name="nl" value="NL">
+
+<hr>
+<input type="submit" value="Verzenden">
+</form>
+</body>
+<br>
+<a href="index.html">◄Terug</a>

@@ -1,0 +1,23 @@
+
+
+body {
+	background-color: lightgrey;
+	color: #4D0FB3
+	}
+
+h1, p, h2 {
+	font-family: "Courier New"
+	}
+
+h1, p, h2 {
+	color: #4D0FB3
+	}	
+
+table, th, td {
+     border: 1px solid black;
+     border-collapse:"collapse";
+	 font-family: "Courier New"
+	}
+	
+button { color: #4D0FB3}
+	
